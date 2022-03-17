@@ -15,11 +15,11 @@ public class TesteEscritaPrintStreamWriter {
 
 //        PrintStream ps = new PrintStream("SQL_Revisao2.txt");
 
-        PrintWriter ps = new PrintWriter("SQL_Revisao2.txt");
+        PrintWriter ps = new PrintWriter("SQL_Revisao2.txt","UTF-8");
 
         ps.println("Lorem jdjkhfkjdshfkdsjhfldsjhflkdsjgf");
         ps.println();
-        ps.println("kdjfdkjfdlskjgfdlldpfd");
+        ps.println("kdjfdkjfdlskjgfdlldpfããããçççõd");
 
         ps.close();
     }

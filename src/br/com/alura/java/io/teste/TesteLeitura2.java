@@ -1,5 +1,6 @@
 package br.com.alura.java.io.teste;
 
+import java.io.Console;
 import java.io.File;
 import java.util.Locale;
 import java.util.Scanner;
@@ -21,6 +22,7 @@ public class TesteLeitura2 {
             int numero = linhaScanner.nextInt();
             String titular = linhaScanner.next();
             Double saldo = linhaScanner.nextDouble();
+
 
             String valorFormatado = String.format(tipoConta + " " + agencia + " " + numero + " " + titular + " " + saldo);
             System.out.println(valorFormatado);
